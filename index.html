@@ -14,6 +14,12 @@
     <title>Home</title>
 
     <style>
+        body {
+            background-image: url(./images/bg-body.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
         .custom-logo {
             height: 80px;
             width: 80px;
@@ -26,8 +32,8 @@
 
         .custom-button:hover {
             background: none;
-            border: 1px solid #800b05;
-            color:yellow;
+            border: 1px solid yellow;
+            color:white;
         }
 
         .active {
@@ -48,7 +54,7 @@
 
 </head>
 
-<body class="bg-dark">
+<body>
 
     <!-- Navbar -->
     <header class="container py-2">
@@ -89,7 +95,7 @@
 
 
     <!-- hero start -->
-    <div class="container custom-padding">
+    <div class="container pb-5">
         <div class="row align-items-center">
             <!-- Hero content -->
             <div class="col-md-6">
@@ -112,15 +118,39 @@
         </div>
     </div>
 
-
-
-    <!-- about us start -->
-    <!-- about us end -->
-
-
     <!-- popular dishes start -->
-    <!-- popular dishes end -->
+    <div class="text-white text-center">
+        <h2>Popular Dishes</h2>
+    </div>
+    <div class="container pb-5">
+    <div class="card-group">
+        <div class="card m-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
 
+    </div>
 
     <!-- newly added dishes hero start -->
     <!-- newly added dishes hero end -->
