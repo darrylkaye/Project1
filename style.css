@@ -1,0 +1,37 @@
+body {
+    background-image: url(./images/bg-body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.custom-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.custom-button {
+    background: #800b05;
+    color: white;
+}
+
+.custom-button:hover {
+    background: green;
+    border: 1px solid white;
+    color: white;
+}
+
+.active {
+    background-color: #800b05;
+    border-radius: 5px;
+}
+
+.not-active:hover {
+    border-bottom: 1px solid #800b05;
+}
+
+.custom-hero {
+    height: 550px;
+    width: 600px;
+
+}
