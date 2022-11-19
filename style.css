@@ -35,3 +35,8 @@ body {
 .custom-hero1 {
     font-size: 3.7em;
 }
+
+.custom-logo-footer {
+    height: 50px;
+    width: 50px;
+}
