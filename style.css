@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Qatora';
+    src: url(fonts/qatora.otf);
+}
+
 body {
     background-image: url(./images/bg-body.jpg);
     background-repeat: no-repeat;
@@ -34,9 +39,22 @@ body {
 
 .custom-hero1 {
     font-size: 3.7em;
+    font-family: 'Qatora', sans-serif;
+}
+
+.custom-logo-navbar {
+    font-family: 'Qatora', sans-serif;
 }
 
 .custom-logo-footer {
     height: 50px;
     width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-logo-navbar {
+    letter-spacing: 1em;
 }
