@@ -54,13 +54,13 @@ a {
     letter-spacing: 2px;
 }
 
-.testimonial-card .card-up {
+.custom-custrev-card .custom-card-up {
     height: 120px;
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
   }
-  .testimonial-card .avatar {
+.custom-custrev-card .avatar {
     width: 110px;
     margin-top: -60px;
     overflow: hidden;
