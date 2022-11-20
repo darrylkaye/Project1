@@ -35,8 +35,6 @@ body {
     border-bottom: 1px solid #800b05;
 }
 
-
-
 .custom-hero1 {
     font-size: 3.7em;
     font-family: 'Qatora', sans-serif;
@@ -51,8 +49,21 @@ a {
     text-decoration: none;
 }
 
-
 .custom-global-font {
     font-family: 'Qatora', sans-serif;
     letter-spacing: 2px;
 }
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
