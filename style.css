@@ -42,10 +42,6 @@ body {
     font-family: 'Qatora', sans-serif;
 }
 
-.custom-logo-navbar {
-    font-family: 'Qatora', sans-serif;
-}
-
 .custom-logo-footer {
     height: 50px;
     width: 50px;
@@ -55,6 +51,8 @@ a {
     text-decoration: none;
 }
 
-.custom-logo-navbar {
-    letter-spacing: 1em;
+
+.custom-global-font {
+    font-family: 'Qatora', sans-serif;
+    letter-spacing: 2px;
 }
