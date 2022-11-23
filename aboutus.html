@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css">
     <title>About Us</title>
 
@@ -66,7 +66,7 @@
     <div class="container py-5">
         <div class="row align-items-center">
             <!-- Our Goal content -->
-            <div class="col-md-6"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="col-md-6" data-aos="fade-down" data-aos-duration="1000">
                 <h1 class="text-warning custom-hero1 text-center">
                     Our Goal
                 </h1>
@@ -124,8 +124,8 @@
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 g-2 pb-5">
-            <div class="col">
+        <div class="row row-cols-1 row-cols-md-4 g-2 pb-5" >
+            <div class="col" data-aos="flip-left" data-aos-duration="1500">
                 <div class="card h-100 p-1 bg-warning bg-gradient">
                     <img src="./images/about/team1.jpg" class="card-img-center img-fluid" alt="team">
                     <div class="card-body">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left" data-aos-duration="1700">
                 <div class="card h-100 p-1 bg-warning bg-gradient">
                     <img src="./images/about/team2.jpg" class="card-img-top img-fluid" alt="team">
                     <div class="card-body">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left" data-aos-duration="1900">
                 <div class="card h-100 p-1 bg-warning bg-gradient">
                     <img src="./images/about/team3.jpg" class="card-img-top img-fluid" alt="team">
                     <div class="card-body">
@@ -158,13 +158,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left" data-aos-duration="2100">
                 <div class="card h-100 p-1 bg-warning bg-gradient">
                     <img src="./images/about/team4.jpg" class="card-img-top img-fluid" alt="team">
                     <div class="card-body">
                         <h4 class="card-title text-danger text-center">Michaela Monasterial </h4>
                         <hr class="text-muted">
-                        <p class="card-text text-danger text-center fs-6">Marketing Director & Social Media Manager</p>
+                        <p class="card-text text-white text-center fs-6 bg-danger bg-gradient rounded">Marketing Director & Social Media Manager</p>
 
 
                     </div>
@@ -258,6 +258,11 @@
  <script>
      AOS.init();
  </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
