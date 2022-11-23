@@ -59,16 +59,14 @@ a {
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-  }
+}
+
 .custom-custrev-card .avatar {
     width: 110px;
     margin-top: -60px;
     overflow: hidden;
     border: 3px solid #fff;
     border-radius: 50%;
-  }
-.zoom:hover {
-    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .custom-footer-decor {
@@ -76,14 +74,13 @@ a {
 }
 
 .custom-footer-decor:hover {
-    color:green;
+    color: green;
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
-
-
-  
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
